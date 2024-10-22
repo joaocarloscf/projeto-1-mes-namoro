@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/galaxy02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+}
+
+div img {
+    width: 20rem;
+}
+
+span > img {
+    width: 2rem;
+    height: 2rem;
+    animation: coracao 2.5s ease infinite;
+}
+
+@keyframes coracao {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.terra {
+    position: absolute;
+    top: 15%;
+}
+
+.lua {
+    position: relative;
+    top: 7%;
+    animation: lua 45s ease infinite;
+}
+
+@keyframes lua {
+    0% {transform: translatey(7%);
+}
+    5% {transform: translatey(10%);
+}
+    10% {transform: translatey(15%);
+}
+    15% {transform: translatey(20%);
+}
+    20% {transform: translatey(25%);
+}
+    25% {transform: translatey(30%);
+}
+    30% {transform: translatey(35%);
+}
+    35% {transform: translatey(40%);
+}
+    40% {transform: translatey(45%);
+}
+    45% {transform: translatey(50%);
+}
+    50% {transform: translatey(55%);
+}
+    55% {transform: translatey(60%);
+}
+    60% {transform: translatey(65%);
+}
+    65% {transform: translatey(70%);
+}
+    70% {transform: translatey(75%);
+}
+    75% {transform: translatey(80%);
+}
+    80% {transform: translatey(85%);
+}
+    85% {transform: translatey(90%);
+}
+    90% {transform: translatey(95%);
+}
+    95% {transform: translatey(100%);
+}
+    100% {transform: translatey(7%);
+}
+}
+
