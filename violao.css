@@ -14,7 +14,7 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(../imagens/galaxy02.jpg);
+    background-image: url(galaxy02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
